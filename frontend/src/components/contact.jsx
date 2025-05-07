@@ -12,7 +12,7 @@ const contact = () => {
     e.preventDefault();
     await axios
       .post(
-        "http://localhost:4000/api/v1/message/send",
+        "https://mern-stack-event-planner-1-j7gi.onrender.com",
         {
           name,
           email,
